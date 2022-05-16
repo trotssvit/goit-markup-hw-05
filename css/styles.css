@@ -736,12 +736,12 @@ padding-bottom: 25px; */
   height: 92px;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-a:hover {
   border-color: #2196f3;
   cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-a:hover .clients-net {
   fill: #2196f3;
@@ -756,10 +756,7 @@ padding-bottom: 25px; */
   fill: #2196f3;
 }
 
-.clients-a .clients-button:focus .clients-net {
-  fill: red;
-}
-
+/* 
 /* -------------------------Modal window------------- */
 .backdrop {
   display: flex;
